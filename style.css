@@ -1,0 +1,144 @@
+@font-face {
+    font-family: Barlow;
+    src: url(Barlow_Semi_Condensed/BarlowSemiCondensed-Regular.ttf);
+}
+
+body{
+    background:  hsl(210, 46%, 95%);
+    font-size: 13px;
+    font-family: Barlow;
+    font-weight: 500,600;
+}
+.box{
+    border-radius: 10px;
+  
+}
+
+.layout{
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+}
+.grids{
+    display: grid;
+    gap: 5%
+}
+.grid1{
+    display: grid;
+    grid-template-columns: 600px 225px;
+    grid-template-rows: 250px;
+    gap: 5%
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 225px 600px;
+    grid-template-rows: 250px;
+    gap:5%
+}
+.grid3{
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: 525px;
+    margin-left:5%;
+}
+
+@media(max-width:376px){
+.layout{
+    display: block;
+}
+
+.grids{
+    display: block;
+    gap:5%;
+}
+
+.grid1{
+    display: block;
+    gap: 5%;
+}
+
+.grid2{
+    display: block;
+    gap:5%;
+}
+
+.grid3{
+    display: block;
+}
+
+
+}
+
+footer{
+    position:fixed;
+    bottom: 0;
+    left: 40%;
+}
+
+.one{
+    background-color: hsl(263, 55%, 52%);
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-x: 400px ;
+    color: white;
+}
+
+.two{
+    background-color: hsl(217, 19%, 35%);
+    color: white;
+
+}
+
+.three{
+    background-color: white;
+}
+
+.four{
+    background-color: hsl(219, 29%, 14%);
+    color: white;
+}
+
+.five{
+    background-color: hsl(0, 0%, 100%);
+}
+
+h3{
+    margin: 0px 0px 0px 0px; 
+    padding: 0px 0px 0px 0px;
+}
+
+.name{
+    display: flex;
+    gap: 15px;
+    margin-left: 5% ;
+    margin-top: 3%;
+}
+
+img{
+    border-radius: 50%;
+    border: 2px solid whitesmoke;
+    width: 35px;
+    height: 35px;
+}
+
+#quotation{
+    border:none;
+    border-radius: 0%;
+    width: 100px;
+    height: 100px;
+}
+h2{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+p{
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    opacity: 70%;
+
+}
+
+
+
